@@ -119,7 +119,7 @@ public class CampoTeste {
 		campo.adicionarVizinho(campo22);
 		
 		campo.abrir();
-		assertFalse(campo22.isAberto() && campo11.isAberto());
+		assertTrue(campo22.isAberto() && !campo11.isAberto());
 	}
 	
 }
